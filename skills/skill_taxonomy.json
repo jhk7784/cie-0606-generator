@@ -1,0 +1,639 @@
+{
+  "version": "1.0",
+  "description": "Cambridge IGCSE Additional Mathematics (0606) Skill Taxonomy",
+  "last_updated": "2026-01-17",
+  "topics": {
+    "1": "Functions",
+    "2": "Quadratic functions",
+    "3": "Equations, inequalities and graphs",
+    "4": "Indices and surds",
+    "5": "Factors of polynomials",
+    "6": "Simultaneous equations",
+    "7": "Logarithmic and exponential functions",
+    "8": "Straight line graphs",
+    "9": "Circular measure",
+    "10": "Trigonometry",
+    "11": "Permutations and combinations",
+    "12": "Series",
+    "13": "Vectors in two dimensions",
+    "14": "Differentiation and integration"
+  },
+  "skills": [
+    {
+      "id": "FUNC-001",
+      "name": "Domain and range",
+      "topic": 1,
+      "description": "Determine domain and range of functions including restrictions",
+      "paper_types": [1, 2]
+    },
+    {
+      "id": "FUNC-002",
+      "name": "Composite functions",
+      "topic": 1,
+      "description": "Find fg(x), gf(x) and determine domain of composite",
+      "paper_types": [1, 2]
+    },
+    {
+      "id": "FUNC-003",
+      "name": "Inverse functions",
+      "topic": 1,
+      "description": "Find f⁻¹(x) by algebraic manipulation",
+      "paper_types": [1, 2]
+    },
+    {
+      "id": "FUNC-004",
+      "name": "Modulus functions",
+      "topic": 1,
+      "description": "Graph and solve equations involving |f(x)|",
+      "paper_types": [1, 2]
+    },
+    {
+      "id": "QUAD-001",
+      "name": "Completing the square",
+      "topic": 2,
+      "description": "Write ax² + bx + c in form a(x + p)² + q",
+      "paper_types": [1, 2]
+    },
+    {
+      "id": "QUAD-002",
+      "name": "Maximum and minimum values",
+      "topic": 2,
+      "description": "Find max/min of quadratic using completed square form",
+      "paper_types": [1, 2]
+    },
+    {
+      "id": "QUAD-003",
+      "name": "Discriminant analysis",
+      "topic": 2,
+      "description": "Use b² - 4ac to determine nature of roots",
+      "paper_types": [1, 2]
+    },
+    {
+      "id": "QUAD-004",
+      "name": "Quadratic graphs",
+      "topic": 2,
+      "description": "Sketch parabolas showing vertex and intercepts",
+      "paper_types": [1, 2]
+    },
+    {
+      "id": "QUAD-005",
+      "name": "Quadratic inequalities",
+      "topic": 2,
+      "description": "Solve inequalities like ax² + bx + c > 0",
+      "paper_types": [1, 2]
+    },
+    {
+      "id": "EQN-001",
+      "name": "Graphical solution of equations",
+      "topic": 3,
+      "description": "Solve equations by finding intersections graphically",
+      "paper_types": [1, 2]
+    },
+    {
+      "id": "EQN-002",
+      "name": "Linear inequalities",
+      "topic": 3,
+      "description": "Solve and represent linear inequalities",
+      "paper_types": [1, 2]
+    },
+    {
+      "id": "EQN-003",
+      "name": "Modulus equations",
+      "topic": 3,
+      "description": "Solve equations of form |ax + b| = c",
+      "paper_types": [1, 2]
+    },
+    {
+      "id": "EQN-004",
+      "name": "Modulus inequalities",
+      "topic": 3,
+      "description": "Solve inequalities involving modulus",
+      "paper_types": [1, 2]
+    },
+    {
+      "id": "EQN-005",
+      "name": "Curve sketching",
+      "topic": 3,
+      "description": "Sketch graphs showing key features",
+      "paper_types": [1, 2]
+    },
+    {
+      "id": "IND-001",
+      "name": "Laws of indices",
+      "topic": 4,
+      "description": "Apply aᵐ × aⁿ = aᵐ⁺ⁿ and related rules",
+      "paper_types": [1, 2]
+    },
+    {
+      "id": "IND-002",
+      "name": "Solving exponential equations",
+      "topic": 4,
+      "description": "Solve equations with unknown in index",
+      "paper_types": [1, 2]
+    },
+    {
+      "id": "IND-003",
+      "name": "Simplifying surds",
+      "topic": 4,
+      "description": "Simplify expressions involving square roots",
+      "paper_types": [1, 2]
+    },
+    {
+      "id": "IND-004",
+      "name": "Rationalizing denominators",
+      "topic": 4,
+      "description": "Rationalize 1/(a + √b) type expressions",
+      "paper_types": [1, 2]
+    },
+    {
+      "id": "POLY-001",
+      "name": "Factor theorem",
+      "topic": 5,
+      "description": "If f(a) = 0 then (x - a) is a factor",
+      "paper_types": [1, 2]
+    },
+    {
+      "id": "POLY-002",
+      "name": "Remainder theorem",
+      "topic": 5,
+      "description": "f(a) gives remainder when f(x) divided by (x - a)",
+      "paper_types": [1, 2]
+    },
+    {
+      "id": "POLY-003",
+      "name": "Polynomial division",
+      "topic": 5,
+      "description": "Divide polynomials to find quotient and remainder",
+      "paper_types": [1, 2]
+    },
+    {
+      "id": "POLY-004",
+      "name": "Solving cubic equations",
+      "topic": 5,
+      "description": "Factorize and solve cubic equations",
+      "paper_types": [1, 2]
+    },
+    {
+      "id": "SIM-001",
+      "name": "Linear simultaneous equations",
+      "topic": 6,
+      "description": "Solve pairs of linear equations",
+      "paper_types": [1, 2]
+    },
+    {
+      "id": "SIM-002",
+      "name": "Non-linear simultaneous equations",
+      "topic": 6,
+      "description": "Solve one linear, one quadratic equation",
+      "paper_types": [1, 2]
+    },
+    {
+      "id": "SIM-003",
+      "name": "Three linear equations",
+      "topic": 6,
+      "description": "Solve systems of three linear equations",
+      "paper_types": [1, 2]
+    },
+    {
+      "id": "LOG-001",
+      "name": "Laws of logarithms",
+      "topic": 7,
+      "description": "Apply log(ab) = log a + log b and related rules",
+      "paper_types": [1, 2]
+    },
+    {
+      "id": "LOG-002",
+      "name": "Change of base",
+      "topic": 7,
+      "description": "Convert between logarithm bases",
+      "paper_types": [1, 2]
+    },
+    {
+      "id": "LOG-003",
+      "name": "Solving exponential equations with logs",
+      "topic": 7,
+      "description": "Use logarithms to solve aˣ = b",
+      "paper_types": [1, 2]
+    },
+    {
+      "id": "LOG-004",
+      "name": "Solving logarithmic equations",
+      "topic": 7,
+      "description": "Solve equations containing logarithms",
+      "paper_types": [1, 2]
+    },
+    {
+      "id": "LOG-005",
+      "name": "Exponential and log graphs",
+      "topic": 7,
+      "description": "Sketch and interpret y = aˣ and y = logₐx",
+      "paper_types": [1, 2]
+    },
+    {
+      "id": "LOG-006",
+      "name": "Natural logarithms",
+      "topic": 7,
+      "description": "Work with ln x and e",
+      "paper_types": [1, 2]
+    },
+    {
+      "id": "LINE-001",
+      "name": "Gradient of a line",
+      "topic": 8,
+      "description": "Calculate gradient from two points or equation",
+      "paper_types": [1, 2]
+    },
+    {
+      "id": "LINE-002",
+      "name": "Equation of a line",
+      "topic": 8,
+      "description": "Find equation given gradient and point",
+      "paper_types": [1, 2]
+    },
+    {
+      "id": "LINE-003",
+      "name": "Parallel and perpendicular lines",
+      "topic": 8,
+      "description": "Use m₁ = m₂ and m₁m₂ = -1 conditions",
+      "paper_types": [1, 2]
+    },
+    {
+      "id": "LINE-004",
+      "name": "Distance and midpoint",
+      "topic": 8,
+      "description": "Calculate distance between points and midpoint",
+      "paper_types": [1, 2]
+    },
+    {
+      "id": "LINE-005",
+      "name": "Reducing to linear form",
+      "topic": 8,
+      "description": "Transform y = axⁿ or y = abˣ to linear form for graph",
+      "paper_types": [1, 2]
+    },
+    {
+      "id": "CIRC-001",
+      "name": "Arc length",
+      "topic": 9,
+      "description": "Calculate arc length s = rθ",
+      "paper_types": [1, 2]
+    },
+    {
+      "id": "CIRC-002",
+      "name": "Sector area",
+      "topic": 9,
+      "description": "Calculate sector area A = ½r²θ",
+      "paper_types": [1, 2]
+    },
+    {
+      "id": "CIRC-003",
+      "name": "Segment area",
+      "topic": 9,
+      "description": "Calculate area of segment (sector minus triangle)",
+      "paper_types": [1, 2]
+    },
+    {
+      "id": "CIRC-004",
+      "name": "Radian-degree conversion",
+      "topic": 9,
+      "description": "Convert between radians and degrees",
+      "paper_types": [1, 2]
+    },
+    {
+      "id": "TRIG-001",
+      "name": "Trigonometric ratios",
+      "topic": 10,
+      "description": "Use sin, cos, tan for right triangles",
+      "paper_types": [1, 2]
+    },
+    {
+      "id": "TRIG-002",
+      "name": "Trigonometric identities",
+      "topic": 10,
+      "description": "Use tan θ = sin θ/cos θ and sin²θ + cos²θ = 1",
+      "paper_types": [1, 2]
+    },
+    {
+      "id": "TRIG-003",
+      "name": "Solving trigonometric equations",
+      "topic": 10,
+      "description": "Solve equations like sin x = k in given range",
+      "paper_types": [1, 2]
+    },
+    {
+      "id": "TRIG-004",
+      "name": "Trigonometric graphs",
+      "topic": 10,
+      "description": "Sketch and transform sin, cos, tan graphs",
+      "paper_types": [1, 2]
+    },
+    {
+      "id": "TRIG-005",
+      "name": "Harmonic form",
+      "topic": 10,
+      "description": "Express a sin θ + b cos θ as R sin(θ + α)",
+      "paper_types": [1, 2]
+    },
+    {
+      "id": "TRIG-006",
+      "name": "Compound angle formulae",
+      "topic": 10,
+      "description": "Use sin(A ± B), cos(A ± B), tan(A ± B)",
+      "paper_types": [1, 2]
+    },
+    {
+      "id": "TRIG-007",
+      "name": "Double angle formulae",
+      "topic": 10,
+      "description": "Use sin 2A, cos 2A, tan 2A",
+      "paper_types": [1, 2]
+    },
+    {
+      "id": "TRIG-008",
+      "name": "Proving trigonometric identities",
+      "topic": 10,
+      "description": "Manipulate expressions to prove identities",
+      "paper_types": [1, 2]
+    },
+    {
+      "id": "PERM-001",
+      "name": "Factorial notation",
+      "topic": 11,
+      "description": "Evaluate and simplify expressions with n!",
+      "paper_types": [1, 2]
+    },
+    {
+      "id": "PERM-002",
+      "name": "Permutations",
+      "topic": 11,
+      "description": "Calculate arrangements using ⁿPᵣ = n!/(n-r)!",
+      "paper_types": [1, 2]
+    },
+    {
+      "id": "PERM-003",
+      "name": "Combinations",
+      "topic": 11,
+      "description": "Calculate selections using ⁿCᵣ = n!/[r!(n-r)!]",
+      "paper_types": [1, 2]
+    },
+    {
+      "id": "PERM-004",
+      "name": "Arrangements with restrictions",
+      "topic": 11,
+      "description": "Solve counting problems with constraints",
+      "paper_types": [1, 2]
+    },
+    {
+      "id": "SER-001",
+      "name": "Arithmetic progression nth term",
+      "topic": 12,
+      "description": "Find nth term using uₙ = a + (n-1)d",
+      "paper_types": [1, 2]
+    },
+    {
+      "id": "SER-002",
+      "name": "Arithmetic series sum",
+      "topic": 12,
+      "description": "Sum using Sₙ = n/2[2a + (n-1)d]",
+      "paper_types": [1, 2]
+    },
+    {
+      "id": "SER-003",
+      "name": "Geometric progression nth term",
+      "topic": 12,
+      "description": "Find nth term using uₙ = arⁿ⁻¹",
+      "paper_types": [1, 2]
+    },
+    {
+      "id": "SER-004",
+      "name": "Geometric series sum (finite)",
+      "topic": 12,
+      "description": "Sum using Sₙ = a(1-rⁿ)/(1-r)",
+      "paper_types": [1, 2]
+    },
+    {
+      "id": "SER-005",
+      "name": "Sum to infinity",
+      "topic": 12,
+      "description": "S∞ = a/(1-r) for |r| < 1",
+      "paper_types": [1, 2]
+    },
+    {
+      "id": "SER-006",
+      "name": "Binomial expansion",
+      "topic": 12,
+      "description": "Expand (a + b)ⁿ for positive integer n",
+      "paper_types": [1, 2]
+    },
+    {
+      "id": "SER-007",
+      "name": "Binomial coefficient",
+      "topic": 12,
+      "description": "Find specific terms in binomial expansion",
+      "paper_types": [1, 2]
+    },
+    {
+      "id": "VEC-001",
+      "name": "Position vectors",
+      "topic": 13,
+      "description": "Represent points using position vectors",
+      "paper_types": [1, 2]
+    },
+    {
+      "id": "VEC-002",
+      "name": "Vector magnitude",
+      "topic": 13,
+      "description": "Calculate |a| = √(x² + y²)",
+      "paper_types": [1, 2]
+    },
+    {
+      "id": "VEC-003",
+      "name": "Unit vectors",
+      "topic": 13,
+      "description": "Find unit vector in direction of given vector",
+      "paper_types": [1, 2]
+    },
+    {
+      "id": "VEC-004",
+      "name": "Vector addition and subtraction",
+      "topic": 13,
+      "description": "Add/subtract vectors algebraically and geometrically",
+      "paper_types": [1, 2]
+    },
+    {
+      "id": "VEC-005",
+      "name": "Scalar multiplication",
+      "topic": 13,
+      "description": "Multiply vector by scalar",
+      "paper_types": [1, 2]
+    },
+    {
+      "id": "VEC-006",
+      "name": "Parallel vectors",
+      "topic": 13,
+      "description": "Identify parallel vectors (a = kb)",
+      "paper_types": [1, 2]
+    },
+    {
+      "id": "VEC-007",
+      "name": "Collinear points",
+      "topic": 13,
+      "description": "Prove points are collinear using vectors",
+      "paper_types": [1, 2]
+    },
+    {
+      "id": "CALC-001",
+      "name": "Differentiation of powers",
+      "topic": 14,
+      "description": "Differentiate xⁿ, including negative and fractional powers",
+      "paper_types": [1, 2]
+    },
+    {
+      "id": "CALC-002",
+      "name": "Differentiation of exponentials",
+      "topic": 14,
+      "description": "Differentiate eˣ and eᵏˣ",
+      "paper_types": [1, 2]
+    },
+    {
+      "id": "CALC-003",
+      "name": "Differentiation of logarithms",
+      "topic": 14,
+      "description": "Differentiate ln x and ln(ax + b)",
+      "paper_types": [1, 2]
+    },
+    {
+      "id": "CALC-004",
+      "name": "Differentiation of trigonometric functions",
+      "topic": 14,
+      "description": "Differentiate sin x, cos x, tan x and compositions",
+      "paper_types": [1, 2]
+    },
+    {
+      "id": "CALC-005",
+      "name": "Chain rule",
+      "topic": 14,
+      "description": "Differentiate composite functions",
+      "paper_types": [1, 2]
+    },
+    {
+      "id": "CALC-006",
+      "name": "Product rule",
+      "topic": 14,
+      "description": "Differentiate products: d/dx(uv) = u(dv/dx) + v(du/dx)",
+      "paper_types": [1, 2]
+    },
+    {
+      "id": "CALC-007",
+      "name": "Quotient rule",
+      "topic": 14,
+      "description": "Differentiate quotients: d/dx(u/v) = [v(du/dx) - u(dv/dx)]/v²",
+      "paper_types": [1, 2]
+    },
+    {
+      "id": "CALC-008",
+      "name": "Tangent and normal",
+      "topic": 14,
+      "description": "Find equations of tangent and normal to a curve",
+      "paper_types": [1, 2]
+    },
+    {
+      "id": "CALC-009",
+      "name": "Stationary points",
+      "topic": 14,
+      "description": "Find and classify turning points and points of inflection",
+      "paper_types": [1, 2]
+    },
+    {
+      "id": "CALC-010",
+      "name": "Second derivative test",
+      "topic": 14,
+      "description": "Use f''(x) to determine nature of stationary points",
+      "paper_types": [1, 2]
+    },
+    {
+      "id": "CALC-011",
+      "name": "Rate of change",
+      "topic": 14,
+      "description": "Find rate of change from derivative",
+      "paper_types": [1, 2]
+    },
+    {
+      "id": "CALC-012",
+      "name": "Connected rates of change",
+      "topic": 14,
+      "description": "Use chain rule: dy/dt = dy/dx × dx/dt",
+      "paper_types": [1, 2]
+    },
+    {
+      "id": "CALC-013",
+      "name": "Increasing and decreasing functions",
+      "topic": 14,
+      "description": "Use sign of f'(x) to determine behavior",
+      "paper_types": [1, 2]
+    },
+    {
+      "id": "CALC-014",
+      "name": "Integration of powers",
+      "topic": 14,
+      "description": "Integrate xⁿ, including negative and fractional powers",
+      "paper_types": [1, 2]
+    },
+    {
+      "id": "CALC-015",
+      "name": "Integration of exponentials",
+      "topic": 14,
+      "description": "Integrate eˣ and eᵏˣ",
+      "paper_types": [1, 2]
+    },
+    {
+      "id": "CALC-016",
+      "name": "Integration of trigonometric functions",
+      "topic": 14,
+      "description": "Integrate sin x, cos x, sec²x",
+      "paper_types": [1, 2]
+    },
+    {
+      "id": "CALC-017",
+      "name": "Integration of 1/x",
+      "topic": 14,
+      "description": "∫(1/x)dx = ln|x| + c",
+      "paper_types": [1, 2]
+    },
+    {
+      "id": "CALC-018",
+      "name": "Integration by substitution (simple)",
+      "topic": 14,
+      "description": "Integrate using substitution for composite functions",
+      "paper_types": [1, 2]
+    },
+    {
+      "id": "CALC-019",
+      "name": "Definite integrals",
+      "topic": 14,
+      "description": "Evaluate ∫[a to b] f(x)dx",
+      "paper_types": [1, 2]
+    },
+    {
+      "id": "CALC-020",
+      "name": "Area under curve",
+      "topic": 14,
+      "description": "Calculate area between curve and x-axis",
+      "paper_types": [1, 2]
+    },
+    {
+      "id": "CALC-021",
+      "name": "Area between curves",
+      "topic": 14,
+      "description": "Calculate area between two curves",
+      "paper_types": [1, 2]
+    },
+    {
+      "id": "CALC-022",
+      "name": "Kinematics (calculus)",
+      "topic": 14,
+      "description": "Use v = ds/dt, a = dv/dt, s = ∫v dt",
+      "paper_types": [1, 2]
+    }
+  ]
+}
